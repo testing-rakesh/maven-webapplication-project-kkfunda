@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to KK DevOps</h1>
-<h1 align="center"> KK Devops B6 Batch Starts From Aug 18 at 8:00 PM</h1>
+<h1 align="center"> KK Devops B6 New Batch Starts From Aug 18 at 8:00 PM</h1>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>

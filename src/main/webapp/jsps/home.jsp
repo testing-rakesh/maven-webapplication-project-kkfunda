@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: 'Fira Sans', 'Roboto', sans-serif;
-            background-color: #c8743b;
+            background-color: #ffeed2;
             color: #2c3e50;
             margin: 0;
             padding: 0;

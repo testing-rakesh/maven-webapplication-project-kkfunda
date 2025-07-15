@@ -1,39 +1,40 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<%@ page import="java.net.*" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>KK FUNDA Home Page</title>
     <link href="images/kkfunda.jpg" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Sans&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
+            font-family: 'Fira Sans', 'Roboto', sans-serif;
+            background-color: #fff9f5;
+            color: #2c3e50;
             margin: 0;
             padding: 0;
         }
         header, footer {
-            background-color: #003366;
+            background-color: #2c3e50;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0;
         }
         h1, h2, h3 {
             text-align: center;
-            color: #003366;
+            color: #d35400;
         }
         .content {
-            padding: 20px;
+            padding: 25px;
         }
         .info-box {
-            background-color: #e6f2ff;
-            border: 1px solid #b3d9ff;
-            border-radius: 8px;
-            padding: 15px;
+            background-color: #fefefe;
+            border: 2px solid #ffb366;
+            border-radius: 10px;
+            padding: 20px;
             margin: 20px auto;
-            width: 80%;
+            width: 85%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .contact {
             text-align: center;
@@ -41,15 +42,22 @@
         }
         .service-link {
             text-align: center;
-            margin-top: 15px;
+            margin-top: 20px;
         }
         .service-link a {
             text-decoration: none;
-            color: #0066cc;
+            color: #e67e22;
             font-weight: bold;
         }
+        .service-link ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .service-link li {
+            margin: 10px 0;
+        }
         footer small {
-            color: #ddd;
+            color: #ccc;
         }
     </style>
 </head>
@@ -63,29 +71,23 @@
 <div class="content">
 
     <div class="info-box">
-        <h3>Server Side Information</h3>
-        <p>
-            <%
-                InetAddress inetAddress = InetAddress.getLocalHost();
-                String serverIP = inetAddress.getHostAddress();
-                String serverName = inetAddress.getHostName();
-            %>
-            Server Host Name: <strong><%= serverName %></strong><br>
-            Server IP Address: <strong><%= serverIP %></strong>
-        </p>
-    </div>
-
-    <div class="info-box">
-        <h3>Client Side Information</h3>
-        <p>
-            Client IP Address: <strong><%= request.getRemoteAddr() %></strong><br>
-            Client Host Name: <strong><%= request.getRemoteHost() %></strong>
-        </p>
-    </div>
-
-    <div class="info-box">
         <h3>About Us</h3>
-        <p>KK FUNDA is a premier training and development center specializing in DevOps, Cloud Technologies, and Full-Stack Development. Join us to accelerate your career with expert guidance and hands-on projects.</p>
+        <p>
+            KK FUNDA is a premier training and development center specializing in DevOps, Cloud Technologies, and Full-Stack Development.
+            We offer expert-led sessions and real-world project guidance to help you master tech skills.
+        </p>
+    </div>
+
+    <div class="info-box">
+        <h3>Soft Skills for DevOps Engineers</h3>
+        <ul>
+            <li><strong>Effective Communication:</strong> Collaborate smoothly across dev, QA, and ops teams.</li>
+            <li><strong>Problem-Solving Mindset:</strong> Quickly diagnose and resolve deployment or pipeline issues.</li>
+            <li><strong>Time Management:</strong> Balance urgent incidents with long-term automation work.</li>
+            <li><strong>Documentation Skills:</strong> Create clean, reusable runbooks and CI/CD docs.</li>
+            <li><strong>Team Collaboration:</strong> Work seamlessly in Agile/Scrum environments.</li>
+            <li><strong>Continuous Learning:</strong> Stay updated on tools like Kubernetes, Terraform, and GitHub Actions.</li>
+        </ul>
     </div>
 
     <div class="info-box contact">

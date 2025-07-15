@@ -19,6 +19,21 @@
             color: white;
             text-align: center;
             padding: 15px 0;
+            position: relative;
+        }
+        header img.left-img {
+            position: absolute;
+            top: 10px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+        }
+        header img.right-img {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
         }
         h1, h2, h3 {
             text-align: center;
@@ -64,8 +79,10 @@
 <body>
 
 <header>
+    <img src="images/devops-left.png" alt="DevOps Left" class="left-img">
     <h1>Welcome to KK DevOps</h1>
     <p>Batch B6 | Starts From Aug 18 at 8:00 PM</p>
+    <img src="images/devops-right.png" alt="DevOps Right" class="right-img">
 </header>
 
 <div class="content">

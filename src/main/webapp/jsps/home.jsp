@@ -18,7 +18,7 @@
             background-color: #000000;
             color: white;
             text-align: center;
-            padding: 15px 0;
+            padding: 17px 0;
         }
         h1, h2, h3 {
             text-align: center;

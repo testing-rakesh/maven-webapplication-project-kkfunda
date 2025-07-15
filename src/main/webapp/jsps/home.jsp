@@ -65,7 +65,7 @@
 
 <header>
     <h1>Welcome to KK DevOps</h1>
-    <p>Batch B6 | Starts From Aug 18 at 8:00 PM</p>
+    <p>Batch B5</p>
 </header>
 
 <div class="content">

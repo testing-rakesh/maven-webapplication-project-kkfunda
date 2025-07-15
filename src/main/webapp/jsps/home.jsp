@@ -74,19 +74,27 @@
         <h3>About Us</h3>
         <p>
             KK FUNDA is a premier training and development center specializing in DevOps, Cloud Technologies, and Full-Stack Development.
-            We offer expert-led sessions and real-world project guidance to help you master tech skills.
+            We offer expert-led sessions and real-world project guidance to help you master technical and soft skills.
         </p>
     </div>
 
     <div class="info-box">
-        <h3>Soft Skills for DevOps Engineers</h3>
+        <h3>Technical Skills & Tools We Cover</h3>
         <ul>
-            <li><strong>Effective Communication:</strong> Collaborate smoothly across dev, QA, and ops teams.</li>
-            <li><strong>Problem-Solving Mindset:</strong> Quickly diagnose and resolve deployment or pipeline issues.</li>
-            <li><strong>Time Management:</strong> Balance urgent incidents with long-term automation work.</li>
-            <li><strong>Documentation Skills:</strong> Create clean, reusable runbooks and CI/CD docs.</li>
-            <li><strong>Team Collaboration:</strong> Work seamlessly in Agile/Scrum environments.</li>
-            <li><strong>Continuous Learning:</strong> Stay updated on tools like Kubernetes, Terraform, and GitHub Actions.</li>
+            <li><strong>Linux Fundamentals:</strong> Essential commands and system administration.</li>
+            <li><strong>Shell Scripting:</strong> Automate tasks efficiently in Unix/Linux environments.</li>
+            <li><strong>Maven:</strong> Java project build and dependency management.</li>
+            <li><strong>SonarQube:</strong> Continuous inspection of code quality.</li>
+            <li><strong>Jenkins:</strong> Automate builds, tests, and deployments with CI/CD pipelines.</li>
+            <li><strong>Nexus Repository:</strong> Artifact repository management.</li>
+            <li><strong>Docker:</strong> Containerization for app deployment and scaling.</li>
+            <li><strong>Kubernetes:</strong> Orchestrate containerized applications.</li>
+            <li><strong>Terraform:</strong> Infrastructure as Code (IaC) for cloud resource provisioning.</li>
+            <li><strong>Git & GitHub:</strong> Version control and collaborative coding.</li>
+            <li><strong>Cloud Platforms:</strong> AWS, Azure, Google Cloud fundamentals and services.</li>
+            <li><strong>Prometheus & Grafana:</strong> Monitoring and visualization of infrastructure metrics.</li>
+            <li><strong>Ansible:</strong> Configuration management and automation.</li>
+            <li><strong>Agile Methodologies:</strong> Efficient project execution strategies.</li>
         </ul>
     </div>
 

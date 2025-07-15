@@ -71,10 +71,13 @@
 <div class="content">
 
     <div class="info-box">
-        <h3>About Us</h3>
+        <h3>About Us KK FUNDA</h3>
         <p>
-            KK FUNDA is a premier training and development center specializing in DevOps, Cloud Technologies, and Full-Stack Development.
-            We offer expert-led sessions and real-world project guidance to help you master technical and soft skills.
+            KK FUNDA is a premier training and development center specializing in DevOps, Cloud Technologies, and Full-Stack Development. We offer expert-led sessions, hands-on labs, and real-world project guidance to help learners master both technical expertise and soft skills.
+
+Our courses are designed for students, working professionals, and teams seeking to upskill with the latest industry practices. We focus on a practical, project-based approach that bridges the gap between learning and real-world implementation.
+
+With a strong emphasis on mentorship, career support, and industry trends, KK FUNDA ensures that you not only learn but thrive in competitive tech environments. Join us to accelerate your career and stay ahead in the fast-evolving world of technology.
         </p>
     </div>
 

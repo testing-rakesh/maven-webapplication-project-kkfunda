@@ -19,21 +19,6 @@
             color: white;
             text-align: center;
             padding: 15px 0;
-            position: relative;
-        }
-        header img.left-img {
-            position: absolute;
-            top: 10px;
-            left: 20px;
-            width: 50px;
-            height: 50px;
-        }
-        header img.right-img {
-            position: absolute;
-            top: 10px;
-            right: 20px;
-            width: 50px;
-            height: 50px;
         }
         h1, h2, h3 {
             text-align: center;
@@ -79,10 +64,8 @@
 <body>
 
 <header>
-    <img src="images/devops-left.png" alt="DevOps Left" class="left-img">
     <h1>Welcome to KK DevOps</h1>
     <p>Batch B6 | Starts From Aug 18 at 8:00 PM</p>
-    <img src="images/devops-right.png" alt="DevOps Right" class="right-img">
 </header>
 
 <div class="content">
@@ -98,20 +81,30 @@
     <div class="info-box">
         <h3>Technical Skills & Tools We Cover</h3>
         <ul>
-            <li><strong>Linux Fundamentals:</strong> Essential commands and system administration.</li>
-            <li><strong>Shell Scripting:</strong> Automate tasks efficiently in Unix/Linux environments.</li>
-            <li><strong>Maven:</strong> Java project build and dependency management.</li>
-            <li><strong>SonarQube:</strong> Continuous inspection of code quality.</li>
-            <li><strong>Jenkins:</strong> Automate builds, tests, and deployments with CI/CD pipelines.</li>
-            <li><strong>Nexus Repository:</strong> Artifact repository management.</li>
-            <li><strong>Docker:</strong> Containerization for app deployment and scaling.</li>
-            <li><strong>Kubernetes:</strong> Orchestrate containerized applications.</li>
-            <li><strong>Terraform:</strong> Infrastructure as Code (IaC) for cloud resource provisioning.</li>
-            <li><strong>Git & GitHub:</strong> Version control and collaborative coding.</li>
-            <li><strong>Cloud Platforms:</strong> AWS, Azure, Google Cloud fundamentals and services.</li>
-            <li><strong>Prometheus & Grafana:</strong> Monitoring and visualization of infrastructure metrics.</li>
-            <li><strong>Ansible:</strong> Configuration management and automation.</li>
-            <li><strong>Agile Methodologies:</strong> Efficient project execution strategies.</li>
+           <li><strong>Linux Fundamentals:</strong> Essential commands and system administration.</li>
+        <li><strong>Shell Scripting:</strong> Automate tasks efficiently in Unix/Linux environments.</li>
+        <li><strong>Maven:</strong> Java project build and dependency management.</li>
+        <li><strong>SonarQube:</strong> Continuous inspection of code quality.</li>
+        <li><strong>Jenkins:</strong> Automate builds, tests, and deployments with CI/CD pipelines.</li>
+        <li><strong>Nexus Repository:</strong> Artifact repository management.</li>
+        <li><strong>Docker:</strong> Containerization for app deployment and scaling.</li>
+        <li><strong>Kubernetes:</strong> Orchestrate containerized applications.</li>
+        <li><strong>Helm:</strong> Kubernetes package management for deploying applications.</li>
+        <li><strong>Terraform:</strong> Infrastructure as Code (IaC) for cloud resource provisioning.</li>
+        <li><strong>Git & GitHub:</strong> Version control and collaborative coding.</li>
+        <li><strong>Cloud Platforms:</strong> AWS, Azure, Google Cloud fundamentals and services.</li>
+        <li><strong>Azure DevOps:</strong> End-to-end DevOps lifecycle tools on Azure.</li>
+        <li><strong>Prometheus & Grafana:</strong> Monitoring and visualization of infrastructure metrics.</li>
+        <li><strong>ELK Stack:</strong> Elasticsearch, Logstash, Kibana for centralized logging and visualization.</li>
+        <li><strong>Splunk:</strong> Log analysis, monitoring, and SIEM.</li>
+        <li><strong>Ansible:</strong> Configuration management and automation.</li>
+        <li><strong>Packer:</strong> Automate machine image creation for multiple platforms.</li>
+        <li><strong>Vault:</strong> Secure secret management and encryption as a service.</li>
+        <li><strong>OpenShift:</strong> Kubernetes-based container platform for enterprise app deployments.</li>
+        <li><strong>Istio:</strong> Service mesh for microservices observability and security.</li>
+        <li><strong>ArgoCD:</strong> GitOps continuous delivery for Kubernetes.</li>
+        <li><strong>ChatOps:</strong> Collaboration via Slack, Microsoft Teams with DevOps automation.</li>
+        <li><strong>Agile Methodologies:</strong> Efficient project execution strategies.</li>
         </ul>
     </div>
 

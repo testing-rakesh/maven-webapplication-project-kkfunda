@@ -15,7 +15,7 @@
             padding: 0;
         }
         header, footer {
-            background-color: #2c3e50;
+            background-color: #6699ff;
             color: white;
             text-align: center;
             padding: 15px 0;

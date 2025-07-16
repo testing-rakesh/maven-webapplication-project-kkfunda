@@ -43,7 +43,7 @@ node
       
       sh """
 
-      curl -u kk:password \
+      curl -u rakey:password \
 --upload-file /var/lib/jenkins/workspace/jio-scripted-way-PL/target/maven-web-application.war \
 "http://13.204.75.232:9090/manager/text/deploy?path=/maven-web-application&update=true"
           

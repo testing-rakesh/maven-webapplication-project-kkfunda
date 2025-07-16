@@ -14,7 +14,7 @@ node
   stage('git checkout')
   {
     notifyBuild('STARTED')
-    git branch: 'development', url: 'https://github.com/testing-rakesh/maven-webapplication-project-kkfunda.git'
+    git branch: 'development-1', url: 'https://github.com/testing-rakesh/maven-webapplication-project-kkfunda.git'
   } 
 
     stage('COMPILE')
